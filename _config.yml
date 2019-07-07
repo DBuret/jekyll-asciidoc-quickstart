@@ -6,6 +6,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - Rakefile
+  - plantuml.cfg
+  - "*.puml"
 asciidoc: {}
 asciidoctor:
   base_dir: :docdir
