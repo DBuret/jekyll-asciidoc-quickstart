@@ -39,3 +39,12 @@ The following links will help with detailed explanations on Jekyll and AsciiDoc.
 * http://jekyllrb.com[Jekyll]
 * http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/[AsciiDoc Quick Reference]
 * http://asciidoctor.org[Asciidoctor]
+
+=== Test PlantUML
+
+[plantuml,format="png", id="myDiagram", width="200px" ]
+----
+
+include::test.puml[]
+
+----
