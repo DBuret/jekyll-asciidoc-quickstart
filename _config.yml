@@ -8,11 +8,13 @@ exclude:
   - Rakefile
   - plantuml.cfg
   - "*.puml"
+keep_files:
+  - images
 asciidoc: {}
 asciidoctor:
   base_dir: :docdir
   safe: unsafe
   attributes:
     - idseparator=_
-    - source-highlighter=rouge
+    - source-highlighter=coderay
     - icons=font
