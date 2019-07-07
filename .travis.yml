@@ -2,7 +2,7 @@ language: ruby
 rvm:
 - 2.2.0
 sudo: false
-sscript: bundle exec jekyll build && bundle exec rake deploy 
+sscript: bundle exec rake deploy 
 addons:
   apt:
     packages:
